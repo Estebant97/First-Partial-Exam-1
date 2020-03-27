@@ -4,4 +4,61 @@ div{
     border: 1px solid black;
     padding: 5px;
 }
+/* mobile */
+@media (max-width: 599px){
+    .heading{
+        display: none;
+    }
+    .content{
+        display: none;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        height: 10%;
+        justify-content: center;
+    }
+    .nav-box{
+        width: 25vw;
+    }
+}
+/* tablets */
+@media (min-width: 600px ) and (max-width: 990px){
 
+}
+/* larger screens */
+@media (min-width: 991px){
+    .heading{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .content{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .side{
+        display: flex;
+        flex-direction: column;
+    }
+    .side-box{
+        width: 50vw;
+        justify-content: center;
+        height: 100%;
+    }
+    .main{
+        display: flex;
+        flex-direction: row;
+    }
+    .main-box{
+        width: 25vw;
+        justify-content: center;
+        height: 100%;
+    }
+}
