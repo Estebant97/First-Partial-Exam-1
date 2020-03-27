@@ -33,6 +33,13 @@ div{
         flex-direction: row;
         justify-content: center;
     }
+    .heading-box{
+        width: 100vh;
+        margin: 15 0;
+    }
+    .nav-box{
+        width: 100%;
+    }
     .navigation{
         display: flex;
         flex-direction: row;
